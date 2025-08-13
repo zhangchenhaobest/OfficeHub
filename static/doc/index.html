@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 橙子轻文档</title>
+  <!-- 引入 favicon -->
+  <link rel="icon" href="/doc/favicon.svg" type="image/x-icon">
+  <!-- 引入 SEO 相关的 meta 标签 -->
+  <meta name="description" content="橙子轻文档是一款多模态的内容知识管理系统,类似飞书和腾讯文档,我们可以使用它高效的进行内容创作和知识管理,并且支持本地化部署">
+  <meta name="keywords" content="文档,在线文档,知识库,内容管理,AI创作,多人协同">
+  <!-- 引入 CSS 样式表 -->
+  <link rel="stylesheet" href="/doc/reset.css">
+  <link rel="stylesheet" href="/doc/index.css">
+  <link rel="stylesheet" href="/doc/css/blurHeader.css">
+  <link rel="stylesheet" href="/doc/css/blurMenu.css">
+  <link rel="stylesheet" href="/doc/css/fullBanner.css">
+  <!-- 引入 JavaScript 文件 -->
+   <script src="/doc/script/common/typed.js"></script>
+  <script src="/doc/index.js"></script>
+</head>
+
+<body>
+  <!-- 头部内容 -->
+  <header class="header" id="js_header">
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="none"><path fill="#00D26A" d="M7 2h5c2.761 0 5 2.739 5 5.5h-5C9.239 7.5 7 4.761 7 2"></path><path fill="#FF822D" d="M16.5 30C22.851 30 28 24.851 28 18.5S22.851 7 16.5 7S5 12.149 5 18.5S10.149 30 16.5 30"></path></g></svg>     
+      橙子轻文档
+    </div>
+    <div class="nav-box">
+      <!-- 下拉菜单 -->
+      <div class="blur-menu">
+        <div class="blur-menu-item menu-trigger">产品矩阵</div>
+        <div class="dropdown">
+            <a href="#" target="_blank">flowmix 轻文档</a>
+            <a href="http://flowmix.turntip.cn/flow" target="_blank">flowmix 工作流</a>
+            <a href="#" target="_blank">flowmix 独立站</a>
+            <a href="https://dooring.vip" target="_blank">Dooring 零代码</a>
+            <a href="https://magic.dooring.vip" target="_blank">Dooring 智图</a>
+        </div>
+      </div>
+      <div class="blur-menu-item"><a href="/files/entry?type=template" target="_blank">模版中心</a></div>
+      <div class="blur-menu-item"><a href="http://flowmix.turntip.cn/docx" target="_blank">编辑器版本</a></div>
+      <div class="blur-menu-item"><a href="http://flowmix.turntip.cn/fm/deploy" target="_blank">私有化部署</a></div>
+      <div class="blur-menu-item"><a href="http://orange.turntip.cn/files/editor/p?tid=dfae8551-a7db-4a60-8c09-c049beda3e7b&uid=d20f36c2-12c4-4085-af6d-f9149edc4683" target="_blank">更新日志</a></div>
+    </div>
+    <div class="right-area">
+      <button>
+        <a href="/files/entry">立即使用</a>
+        <span class="followers">&nbsp; 1.2K+用户 </span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 首页全屏banner -->
+  <div class="bg-full">
+    <div class="slogan">
+       <div id="banner_slogan"></div>
+       <span class="point-me">橙小多</span>
+    </div>
+    <div class="slogan-text2">支持多人共创, 智能化 + 多模态内容创作和知识管理</div>
+
+    <div class="shadow-btn-wrap">
+      <button class="shadow-btn"><a href="/files/entry">立即体验</a></button>
+    </div>
+
+
+    <div class="img-box box1">
+      <img src="/doc/assets/editor.png" alt="">
+    </div>
+    <div class="img-box box2">
+      <img src="/doc/assets/excel.png" alt="">
+    </div>
+  </div>
+
+  <main>
+    <!-- 主要内容 -->
+     <!-- 核心模块列表展示 -->
+      <div class="feature-core-module-card">
+        <h2 class="feature-title">内容创作与知识管理</h2>
+        <div class="feature-desc">提供丰富的知识套件和业务管理模块</div>
+        <div class="feature-content">
+            <div class="feature-item">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M13.586 2A2 2 0 0 1 15 2.586L19.414 7A2 2 0 0 1 20 8.414V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM12 4H6v16h12V10h-4.5a1.5 1.5 0 0 1-1.493-1.356L12 8.5zm2.064 8.649a1 1 0 0 1 1.907.59l-.035.112l-1.406 3.75c-.341.91-1.588.95-2.008.12l-.052-.12l-.47-1.253l-.47 1.253c-.341.91-1.588.95-2.008.12l-.052-.12l-1.406-3.75a1 1 0 0 1 1.825-.809l.047.107l.564 1.503l.47-1.253c.341-.91 1.588-.95 2.008-.12l.052.12l.47 1.253zM14 4.414V8h3.586z"/></g></svg>
+                </div>
+                <p class="feature-item-title">橙子文档</p>
+                <p class="feature-item-desc">
+                    在线创作, 多种编辑模式
+                </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><defs><mask id="IconifyId192ff9ad58418abbe0"><g fill="none" stroke-linecap="round" stroke-width="4"><path stroke="#fff" stroke-linejoin="round" d="M8 15V6a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v36a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-9"/><path stroke="#fff" d="M31 15h3m-6 8h6m-6 8h6"/><path fill="#fff" stroke="#fff" stroke-linejoin="round" d="M4 15h18v18H4z"/><path stroke="#000" stroke-linejoin="round" d="m10 21l6 6m0-6l-6 6"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#IconifyId192ff9ad58418abbe0)"/></svg>
+              </div>
+              <p class="feature-item-title">在线表格</p>
+              <p class="feature-item-desc">
+                  文档与表格的无缝集成
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M17 5h3l-1.5 2zM3 2h18a2 2 0 0 1 2 2v4c0 1.11-.89 2-2 2h-5v10c0 1.11-.89 2-2 2H3a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2m0 2v4h11V4zm18 4V4h-5v4zM3 20h11V10H3zm2-8h7v2H5zm0 4h7v2H5z"/></svg>
+              </div>
+              <p class="feature-item-title">自定义表单</p>
+              <p class="feature-item-desc">
+                  灵活高效地收集数据
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2.5L9.53 5h5zM4 7v13h16V7zm8-7l5 5h3a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h3zM7 18v-4h5v4zm7-1v-7h4v7zm-8-5V9h5v3z"/></svg>
+              </div>
+              <p class="feature-item-title">原型白板</p>
+              <p class="feature-item-desc">
+                  产品灵感和内容无缝结合
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M18 3a3 3 0 1 1 0 6h-3a3 3 0 0 1-2.829-2H11c-1.1 0-2 .9-2 2v.171a3.001 3.001 0 0 1 0 5.658V15c0 1.1.9 2 2 2h1.17A3 3 0 0 1 15 15h3a3 3 0 1 1 0 6h-3a3 3 0 0 1-2.829-2H11c-2.21 0-4-1.79-4-4H5a3 3 0 1 1 0-6h2a4 4 0 0 1 4-4h1.17A3 3 0 0 1 15 3zm0 14h-3a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2M8 11H5a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2m10-6h-3a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2"/></svg>
+              </div>
+              <p class="feature-item-title">思维导图</p>
+              <p class="feature-item-desc">
+                  将想法转化为结构化的知识
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M22 5v2h-3v3h-2V7h-3V5h3V2h2v3zm-3 14H5V5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2zm-4-6v4h2v-4zm-4 4h2V9h-2zm-2 0v-6H7v6z"/></svg>
+              </div>
+              <p class="feature-item-title">可视化图表</p>
+              <p class="feature-item-desc">
+                  文档与数据栩栩如生
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12"/><path d="m5.5 12.5l.475-.316c.473-.316.71-.474.938-.404c.227.071.333.335.545.864L9 16.5l2.088-6.265c.44-1.32.66-1.98 1.184-2.357s1.22-.378 2.611-.378H18.5M17 12l-1.5 1.5m0 0L14 15m1.5-1.5L17 15m-1.5-1.5L14 12"/></g></svg>
+              </div>
+              <p class="feature-item-title">复杂数学公式</p>
+              <p class="feature-item-desc">
+                  文档数字科学化
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m8.825 12l1.475-1.475q.3-.3.3-.7t-.3-.7t-.712-.3t-.713.3L6.7 11.3q-.15.15-.213.325T6.425 12t.062.375t.213.325l2.175 2.175q.3.3.713.3t.712-.3t.3-.7t-.3-.7zm6.35 0L13.7 13.475q-.3.3-.3.7t.3.7t.713.3t.712-.3L17.3 12.7q.15-.15.213-.325t.062-.375t-.062-.375t-.213-.325l-2.175-2.175q-.15-.15-.337-.225t-.376-.075t-.375.075t-.337.225q-.3.3-.3.7t.3.7zM5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm0-2h14V5H5zM5 5v14z"/></svg>
+              </div>
+              <p class="feature-item-title">多语言代码展示</p>
+              <p class="feature-item-desc">
+                  内置20+编程语言格式
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+              </div>
+              <p class="feature-item-title">自定义网页</p>
+              <p class="feature-item-desc">
+                  嵌入网页，释放文档展现力
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11V9h-2V7a2.006 2.006 0 0 0-2-2h-2V3h-2v2h-2V3H9v2H7a2.006 2.006 0 0 0-2 2v2H3v2h2v2H3v2h2v2a2.006 2.006 0 0 0 2 2h2v2h2v-2h2v2h2v-2h2a2.006 2.006 0 0 0 2-2v-2h2v-2h-2v-2Zm-4 6H7V7h10Z"/><path fill="currentColor" d="M11.361 8h-1.345l-2.01 8h1.027l.464-1.875h2.316L12.265 16h1.062Zm-1.729 5.324L10.65 8.95h.046l.983 4.374ZM14.244 8h1v8h-1z"/></svg>
+              </div>
+              <p class="feature-item-title">AI辅助创作</p>
+              <p class="feature-item-desc">
+                  借助AI, 高效创作
+              </p>
+            </div>
+        </div>
+      </div>
+
+    <!-- 产品核心功能演示 -->
+    <div class="feature-core-module-card nobg">
+      <h2 class="feature-title">富文本和MarkDown语法实时转写</h2>
+      <div class="feature-desc">支持MarkDown语法自动转化, 更高效地编写文档</div>
+      <div class="feature-content">
+          <div class="imgBox">
+            <img src="/doc/assets/md.gif" alt="flowmix多模态文档引擎多模式渲染演示" title="橙子轻文档">
+          </div>
+          
+      </div>
+    </div>
+
+    <!-- 产品服务宗旨 -->
+    <div class="feature-core-module-card">
+      <h2 class="feature-title">高效灵活, 安全可控的专业级文档知识系统</h2>
+      <div class="feature-desc">企业级文档协同解决方案, 支持本地化部署, 专业团队支持</div>
+      <div class="feature-content">
+          <div class="imgBox">
+            <img src="/doc/assets/deploy.gif" alt="flowmix多模态文档引擎多模式渲染演示" title="橙子轻文档">
+          </div>
+          
+      </div>
+    </div>
+
+    <!-- 用户评价 -->
+    <div class="feature-core-module-card nobg">
+      <h2 class="feature-title">来自不同行业的用户心声</h2>
+      <div class="feature-desc">收集了来自1000+代表用户的真实反馈</div>
+      <div class="feature-content">
+          <div class="card-box">
+            <div class="card-item">
+              <p class="card-header">野林 - 阿里云专家博主</p>
+              <p class="card-desc">
+                橙子轻文档是一款“AI+文档”的零代码产品，也是多种交叉方向下的新型技术探索实践。在当下火热的AI大模型进程中，Nocode/WEP直击文档领域的产品使用痛点，通过融合AI提示、协同编辑等功能特性，提升了文档编辑效率与知识沉淀能力，其对AIGC领域的商业化落地也具有标杆作用！
+              </p>
+              <button class="card-ft">央企前端架构师</button>
+            </div>
+            <div class="card-item">
+              <p class="card-header">朱昆鹏 - AI领域创业者</p>
+              <p class="card-desc">
+                橙子轻文档的可视化设计 + AI功能，让文档编辑变的简单高效！对于自媒体博主或者企业，使用它做内部知识管理将会带来非常有意思的变革。
+              </p>
+              <button class="card-ft">北京龙腾比特科技有限责任公司 CEO</button>
+            </div>
+            <div class="card-item">
+              <p class="card-header">伊婷 - 高级IE工程师</p>
+              <p class="card-desc">
+                传统制造企业往往需要更定制化的内容载体，橙子轻文档的文档编辑器恰到好处的解决了制造业文档资产呈现的问题，从流程图到Web容器，可以支持更丰富的内容载体，非常不错的一款产品。
+              </p>
+              <button class="card-ft">三星集团越南工厂项目经理</button>
+            </div>
+            <div class="card-item">
+              <p class="card-header">坚果 - 鸿蒙生态专家</p>
+              <p class="card-desc">
+                橙子轻文档产品真的非常出色，具有简便性与易用性，功能丰富，操作便捷，可以轻松高效处理各类文档事务，值得推荐。
+              </p>
+              <button class="card-ft">江苏润开鸿数字科技有限公司</button>
+            </div>
+            <div class="card-item">
+              <p class="card-header">陈随易 - 独立开发者</p>
+              <p class="card-desc">
+                橙子轻文档的表现力太丰富了！表单、公式、白板、思维导图、弹幕、网页等等，都可以通过简单的鼠标点击融合到一个文档中，从未见过如此创新的设计。
+              </p>
+              <button class="card-ft">随易科技CEO</button>
+            </div>
+            <div class="card-item">
+              <p class="card-header">Vam - Strve框架作者</p>
+              <p class="card-desc">
+                所见即所得，释放了无限的创造力。而 AI 功能的融入更是如虎添翼，它像是智慧的引擎，为整个设计过程注入了智能与高效。是一款非常 Nice 的产品！
+              </p>
+              <button class="card-ft">资深前端工程师</button>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+
+
+    <!-- 引导体验模块 -->
+    <div class="feature-core-module-card full-bg">
+      <h2 class="feature-title">立即开启创作之旅</h2>
+      <div class="feature-desc">持续迭代, 智能, 高效的知识创作与管理平台</div>
+      <div class="feature-content">
+        <div class="shadow-btn-wrap">
+          <button class="shadow-btn"><a href="/files/entry">立即体验</a></button>
+        </div>
+          
+      </div>
+    </div>
+            
+           
+            
+  </main>
+  <footer class="footer">
+    <!-- 底部内容 -->
+     <div class="ft-header">
+        <div class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="none"><path fill="#00D26A" d="M7 2h5c2.761 0 5 2.739 5 5.5h-5C9.239 7.5 7 4.761 7 2"></path><path fill="#FF822D" d="M16.5 30C22.851 30 28 24.851 28 18.5S22.851 7 16.5 7S5 12.149 5 18.5S10.149 30 16.5 30"></path></g></svg>     
+          <div class="logo-text">橙子轻文档</div>
+        </div>
+        
+        <div class="slogan">
+            让知识创作更简单, 帮助中小企业轻松拥有自己的专业级知识管理系统.
+        </div>
+     </div>
+     <div class="copyright">© 2024 flowmix多模态产研团队 | 
+      <a href="https://beian.miit.gov.cn/"><img src="http://turntip.cn/cxzk/static/image/beian.png" alt="">渝ICP备2023006249号-1</a>
+    </div>
+  </footer>
+  <script src="/doc/script/typed.js"></script>
+</body>
+</html>

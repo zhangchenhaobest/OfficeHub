@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>橙讯智科·轻文档</title>
+      <meta name="keywords" content="轻文档,数据中台,社区应用,数字化">
+      <meta name="description" content="专注于提供专业数智化领域解决方案">
+      <meta name="author" content="橙讯智科">
+      
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="/cxzk/static/css/01.css">
+   </head>
+   <body>
+      <header class="top-header">
+        <nav>
+            <div class="logo">
+                <img src="/cxzk/static/image/cxzk_logo_a.png" alt="">
+                橙讯智科
+            </div>
+            <div class="right-nav">
+                <div class="media-js-btn media_js_btn">媒体平台</div>
+            </div>
+        </nav>
+      </header>
+      <main>
+        <div class="cx-left">
+            <div class="slogan slogan_js">专注于提供专业数智化领域解决方案</div>
+            <div class="service-box">
+                <div class="service-card">
+                    <img src="/cxzk/static/image/item_04.png" alt="">
+                    <div class="service-card-name"><a href="http://flowmix.turntip.cn/docx">文档搭建引擎</a></div>
+                </div>
+                <div class="service-card">
+                    <img src="/cxzk/static/image/item_01.png" alt="">
+                    <div class="service-card-name">
+                        <a href="http://website.turntip.vip">社区轻应用</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/cxzk/static/image/item_02.png" alt="">
+                    <div class="service-card-name">
+                        <a href="http://flowmix.turntip.cn/flow">可视化工作流引擎</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="/cxzk/static/image/item_03.png" alt="">
+                    <div class="service-card-name">专业IT解决方案</div>
+                </div>
+            </div>
+        </div>
+        <div class="cx-right">
+            <ul class="minbox">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ol class="maxbox">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+      </main>
+      <footer>
+        <p>©版权所有: 重庆橙讯智科网络科技有限公司</p>
+        <p>
+            <img src="/cxzk/static/image/beian.png" alt="">  
+            <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2023006249号-1</a>
+        </p>
+      </footer>
+      <div class="media-mask-modal media_mask_modal hidden">
+        <div class="media-mask-modal-content">
+            <div class="modal-content-item">
+                <img src="/cxzk/static/image/cxdp_qr.jpg" alt="">
+                <span>橙讯点评</span>
+            </div>
+            <div class="modal-content-item">
+                <img src="/cxzk/static/image/cxs_qr.jpg" alt="">
+                <span>橙讯社</span>
+            </div>
+            <div style="width:100%;margin-top:20px;text-align: center;">
+                <div class="media-js-btn modal_close_btn" style="width:60px;text-align: center;display:inline-block">关闭</div>
+            </div>
+        </div>
+      </div>
+      <!--copyright section end -->
+      <!-- Javascript files-->
+      <script src="/cxzk/static/js/jquery.min.js"></script>
+      <script src="https://cdn.dooring.cn/dr%2Fautotype.js"></script> 
+      <script>
+        var options = {
+            selector: ".slogan_js", // target element selector
+            words: ["专注于提供专业数智化领域解决方案", ""], // words/sentences that will be auto typed
+            charSpeed: 85, // letter typing animation speed
+            delay: 2100, // word/sentence typing animation delay
+            loop: true, // if loop is activated, autoTyper will start over
+            flipflop: false // if flipflop is activated, letters which are typed animated will be removed ony by one animated
+        };  
+
+        var typer = new autoTyper(options);
+        typer.start()
+
+        // 弹窗
+        $('.media_js_btn').click(function(){
+            $('.media_mask_modal').addClass('show')
+        })
+        $('.modal_close_btn').click(function(){
+            $('.media_mask_modal').removeClass('show')
+        })
+      </script>
+   </body>
+</html>

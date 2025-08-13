@@ -1,0 +1,63 @@
+/* 头部组件 */
+.header {
+    position: fixed;
+    height: 52px; 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.header .logo svg {
+    padding-right: 6px;
+    /* font-size: 20px; */
+}
+
+/* 头部右侧控件区域 */
+
+.header .right-area {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.header .right-area button {
+    font-size: 0.8rem;
+    align-items: center;
+    height: 36px;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(143, 142, 142, 0.15) !important;
+    background: #000000;
+  }
+
+  .header .right-area button a {
+    color: inherit;
+  }
+  
+  .header .right-area button .followers {
+    font-size: 0.8rem;
+    color: #7f7f7f;
+  }
+  
+  .header .right-area button:hover {
+    background: #2b2a2a;
+  }
