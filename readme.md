@@ -62,6 +62,11 @@ pnpm start
 - 用户名：super
 - 密码：super_123
 
+
+后台管理系统访问路径：/fm-busy-admin/
+
+激活码生成访问路径：/fm-busy-admin/generateActiveCode
+
 ## 联系方式
 
 如果你有任何问题或建议，欢迎通过以下方式联系我们：
