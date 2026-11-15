@@ -1,3 +1,29 @@
+# OfficeHub
+
+[English](#english) | [简体中文](#简体中文)
+
+---
+
+## English
+
+Meet OfficeHub — your all-in-one workspace for seamless productivity. Whether you’re drafting documents, crunching numbers in spreadsheets, or mapping out ideas with mind maps, OfficeHub brings every tool you need under one intuitive roof.
+
+> This repository is a fork. For full documentation, see the upstream repository.
+
+[简体中文](#简体中文)
+
+---
+
+## 简体中文
+
+一体化生产力工作区，覆盖文档撰写、电子表格计算与思维导图等场景。
+
+> 本项目为 fork，详细文档请以原仓库为准。
+
+[English](#english)
+
+---
+
 # OfficeHub - 开源在线办公平台
 
 ![](https://orange.turntip.cn/doc/assets/deploy.gif)
